@@ -12,14 +12,14 @@
                     <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
                         <h1 class="display-3 fw-bold mb-4">Capture Your Best Moments in Surabaya</h1>
                         <p class="lead mb-4">Premium photobooth experiences for your events, weddings, and parties across Jawa Timur!</p>
-                        <a href="services.php" class="btn btn-warning btn-lg rounded-pill shadow text-dark fw-bold">View Packages</a>
+                        <a href="{{ url('/services') }}" class="btn btn-warning btn-lg rounded-pill shadow text-dark fw-bold">View Packages</a>
                     </div>
                 </div>
                 <div class="carousel-item text-white text-center py-5" style="height: 60vh; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero2.jpg') center/cover;">
                     <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
                         <h1 class="display-3 fw-bold mb-4">Unlimited Fun & Instant Prints</h1>
                         <p class="lead mb-4">Bring joy to your guests with our interactive kiosks!</p>
-                        <a href="contact.php" class="btn btn-warning btn-lg rounded-pill shadow text-dark fw-bold">Book Now</a>
+                        <a href="{{ url('/contact') }}" class="btn btn-warning btn-lg rounded-pill shadow text-dark fw-bold">Book Now</a>
                     </div>
                 </div>
             </div>
